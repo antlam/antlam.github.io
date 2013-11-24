@@ -647,6 +647,7 @@ pre code {
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
+  outline: 1px solid green;
 }
 .container:before,
 .container:after {
@@ -5325,3 +5326,22 @@ td.visible-print {
   -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
+
+.profile {
+  padding-top: 100px;
+  outline: 1px solid red;
+}
+
+.ig-latest {
+  outline: 1px solid blue;
+  height: 512px;
+  width: 512px;
+  background-color: #f9f9f9;
+  float:left;
+
+}
+
+#instafeed {
+  outline: 1px solid blue;
+}
+
