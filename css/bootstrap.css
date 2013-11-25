@@ -5332,15 +5332,6 @@ td.visible-print {
   outline: 1px solid red;
 }
 
-.ig-latest {
-  outline: 1px solid blue;
-  height: 512px;
-  width: 512px;
-  background-color: #f9f9f9;
-  float:left;
-
-}
-
 #instafeed {
   outline: 1px solid blue;
 }
