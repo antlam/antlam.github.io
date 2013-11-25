@@ -5336,3 +5336,9 @@ td.visible-print {
   outline: 1px solid blue;
 }
 
+#instafeed img {
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+}
+
