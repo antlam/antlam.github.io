@@ -643,9 +643,9 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  margin-right: auto;
+   /* margin-right: auto;
   margin-left: auto;
- /* padding-left: 10px;
+  padding-left: 10px;
   padding-right: 10px;*/
 }
 .container:before,
@@ -5327,24 +5327,39 @@ td.visible-print {
 }
 
 .profile {
-  padding: 20px 20px 30px 20px;
+  padding: 20px 20px 20px 20px;
   z-index: 9999;
   position: absolute;
-  top: 140px;
-  /*outline: 1px solid red;*/
+  top: 180px;
   background-color: white;
+  margin-left: 10px;
+  /*outline: 1px solid red;*/
 }
+
+/*#avatar {
+  position:absolute; 
+  top: 50px;
+  left: 50%;
+  margin-left: -80px; 
+  z-index: 9999;
+  width: 160px;
+  height: 160px;
+  background: black; 
+  -moz-border-radius: 100px; 
+  -webkit-border-radius: 100px; 
+  border-radius: 100px;
+}*/
 
 #instafeed {
   position:fixed; 
-  /*top: 0;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 100%;*/
-  top:-50%; 
+  height: 100%;
+  /*top:-50%; 
   left:-50%;
   width:200%; 
-  height:200%;
+  height:200%;*/
   background: #FFFFFF;
 }
 
@@ -5357,6 +5372,6 @@ td.visible-print {
   margin:auto; 
   min-width:50%;
   min-height:50%;
-  opacity: .1;
+  opacity: 1;
 }
 
